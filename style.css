@@ -57,3 +57,57 @@ main {
     margin-top: 30px;
 }
 
+/* oluchi"s css styles */
+*{
+    padding: 0;
+    margin: 0;
+}
+#olu{
+    box-sizing: border-box;
+    background-color: rgb(250, 229, 204);
+}
+.olu-header{
+    background-color: rgb(66, 153, 225);
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap: 100px;
+    align-items: center;
+    padding: 20px 30px;
+}
+.olu-title{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 30px;
+    display: flex;
+}
+
+.olu-nav{
+    display: grid;
+    grid-template-columns: 50%;
+    gap: 10px;
+    justify-content: center;
+   }
+
+.olu-nav ul{
+ list-style: none;   
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+.olu-ul a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.olu-ul #call{
+    background-color: white;
+    color: red;
+    border: none;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 10px;
+}
+
+
