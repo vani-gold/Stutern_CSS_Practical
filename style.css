@@ -8,7 +8,9 @@ main {
 
 .card_container {
     display: grid;
-    grid-template-columns: repeat(4, 400px);
+    border: 1px solid blue;
+    padding: 20px 10px;
+    grid-template-columns: repeat(4, 350px);
     gap: 20px;
     justify-content: center;
     margin-top: 30px;
@@ -24,7 +26,12 @@ main {
     flex-direction: column;
     align-content: center;
 }
-
+.card:nth-of-type(even){
+    border: 2px dotted green;
+}
+.card:nth-of-type(odd){
+    border: 2px solid black;
+}
 .henry-holder {
     width: 20%;
     border-style: solid;
@@ -55,6 +62,23 @@ main {
     background-color: crimson;
     text-align: center;
     margin-top: 30px;
+}
+/* rosheedat's css style */
+.rosheedat_card{
+    border: 1px solid red;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.rosheedat_header{
+    color: brown;
+    text-align: center;
+    font-size: 2em;
+    
 }
 
 .liz {
