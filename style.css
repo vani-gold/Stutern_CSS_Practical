@@ -57,3 +57,19 @@ main {
     margin-top: 30px;
 }
 
+/* agnes css styles */
+.agnes_figcaption {
+    color: blue;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.agnes{
+    margin-left: auto;
+    margin-right: auto;
+}
+.agnes_th, td{
+    padding: 10px;
+}
+
+
