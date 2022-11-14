@@ -1,0 +1,105 @@
+main {
+    padding-top: 40px;
+}
+
+.project_tittle {
+    text-align: center;
+}
+
+.card_container {
+    display: grid;
+    border: 1px solid blue;
+    padding: 20px 10px;
+    grid-template-columns: repeat(4, 350px);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.card:nth-of-type(even){
+    border: 2px dotted green;
+}
+.card:nth-of-type(odd){
+    border: 2px solid black;
+}
+.henry-holder {
+    width: 20%;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.2;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+/* nonso"s css styles */
+.nonso_header {
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* dami"s css styles */
+.dami.header{
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.venee_header {
+    color: rgb(6, 6, 7);
+    background-color: crimson;
+    text-align: center;
+    margin-top: 30px;
+}
+/* rosheedat's css style */
+.rosheedat_card{
+    border: 1px solid red;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.rosheedat_header{
+    color: brown;
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+.liz {
+    color:brown;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* agnes css styles */
+.agnes_figcaption {
+    color: blue;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.agnes{
+    margin-left: auto;
+    margin-right: auto;
+}
+.agnes_th, td{
+    padding: 10px;
+}
+
+
