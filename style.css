@@ -159,4 +159,10 @@ main {
     padding: 10px;
 }
 
-
+/* bukola's css styling */
+.bukola_style{
+    border: 2px solid black;
+    border-radius: 5px;
+    color: crimson;
+    width: fit-content;
+}
