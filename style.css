@@ -8,7 +8,9 @@ main {
 
 .card_container {
   display: grid;
-  grid-template-columns: repeat(4, 400px);
+    border: 1px solid blue;
+    padding: 20px 10px;
+  grid-template-columns: repeat(4, 350px);
   gap: 20px;
   justify-content: center;
   margin-top: 30px;
@@ -24,7 +26,12 @@ main {
   flex-direction: column;
   align-content: center;
 }
-
+.card:nth-of-type(even){
+    border: 2px dotted green;
+}
+.card:nth-of-type(odd){
+    border: 2px solid black;
+}
 .henry-holder {
   width: 20%;
   border-style: solid;
@@ -54,12 +61,30 @@ main {
   text-align: center;
   margin-top: 30px;
 }
+/* rosheedat's css style */
+.rosheedat_card{
+    border: 1px solid red;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.rosheedat_header{
+    color: brown;
+    text-align: center;
+    font-size: 2em;
+}
 
 /* TEMIDAYO'S CSS STYLES */
+
 .temi-body {
   background-color: whitesmoke;
   color: rgb(12, 12, 109);
 }
+
 .temidayo-header {
   background-color: cornflowerblue;
   height: fit-content;
@@ -112,3 +137,26 @@ main {
   border: 4px solid rgb(12, 12, 109);
   font-size: 1.2em;
 }
+
+.liz {
+    color:brown;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* agnes css styles */
+.agnes_figcaption {
+    color: blue;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.agnes{
+    margin-left: auto;
+    margin-right: auto;
+}
+.agnes_th, td{
+    padding: 10px;
+}
+
+
