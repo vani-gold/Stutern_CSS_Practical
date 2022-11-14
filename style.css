@@ -28,4 +28,21 @@ color: blue;
 text-align: center;
 margin-top: 30px;
 }
+/* rosheedat's css style */
+.rosheedat_card{
+    border: 1px solid red;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.rosheedat_header{
+    color: brown;
+    text-align: center;
+    font-size: 2em;
+    
+}
 
