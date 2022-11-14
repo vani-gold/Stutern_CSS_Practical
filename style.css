@@ -1,17 +1,20 @@
-main{
+main {
     padding-top: 40px;
 }
-.project_tittle{
+
+.project_tittle {
     text-align: center;
 }
-.card_container{
+
+.card_container {
     display: grid;
     grid-template-columns: repeat(4, 400px);
     gap: 20px;
     justify-content: center;
     margin-top: 30px;
 }
-.card{
+
+.card {
     border: 1px solid black;
     border-radius: 10px;
     max-width: 300px;
@@ -22,11 +25,36 @@ main{
     align-content: center;
 }
 
+.henry-holder {
+    width: 20%;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.2;
+    border-radius: 20px;
+    padding: 30px;
+}
+
 /* nonso"s css styles */
-.nonso_header{
-color: blue;
-text-align: center;
-margin-top: 30px;
+.nonso_header {
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* dami"s css styles */
+.dami.header{
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.venee_header {
+    color: rgb(6, 6, 7);
+    background-color: crimson;
+    text-align: center;
+    margin-top: 30px;
 }
 /* rosheedat's css style */
 .rosheedat_card{
