@@ -195,6 +195,31 @@ main {
 .text {
   font-size: 20px;
 }
+
+/* Destiny Otoibhi's styles */ 
+.tiny{
+  border-radius: 8px;
+  border: 1px dashed burlywood;
+  max-width: 200px;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: darkgreen;
+}
+.dee{
+  color: coral;
+  text-align: center;
+  padding: 10px;
+}
+.likes{
+  color: orangered;
+  text-align: center;
+  padding: 0px;
+}
+/* why style span? this is too general */
+span{color: darkgoldenrod;}
+
 .rita_dolapo{
   text-align: center;
   color: rgb(134, 19, 134);
@@ -286,3 +311,5 @@ main {
   padding-top: 10px;
 }
 
+/* why style span? this is too general */
+ul {text-align: justify; color: crimson;}
