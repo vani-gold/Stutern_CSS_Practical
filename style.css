@@ -166,3 +166,34 @@ main {
     color: crimson;
     width: fit-content;
 }
+/* Blessing Dawodu's style */
+#description {
+  padding: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+#description:hover {
+  color: #dad6d6e1;
+}
+
+#blog {
+  background-color: #dad6d64d;
+  color: #000000;
+  padding: 20px;
+  margin: 10px;
+  line-height: 2;
+}
+
+.capitalize {
+  text-transform: capitalize;
+  margin: auto;
+}
+
+.text {
+  font-size: 20px;
+}
+ 
+
