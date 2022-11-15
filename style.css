@@ -195,5 +195,10 @@ main {
 .text {
   font-size: 20px;
 }
- 
+.rita_dolapo{
+  text-align: center;
+  color: rgb(134, 19, 134);
+  text-decoration: underline;
+  font-size: 50px;
+}
 
