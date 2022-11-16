@@ -1,14 +1,16 @@
-main {
+/* main {
   padding-top: 40px;
-}
+} */
 
 .project_tittle {
   text-align: center;
+  padding: 40px 20px;
+  background: #000000;
+  color: #ffffff;
 }
 
 .card_container {
   display: grid;
-    border: 1px solid blue;
     padding: 20px 10px;
   grid-template-columns: repeat(4, 350px);
   gap: 20px;
