@@ -8,8 +8,8 @@ main {
 
 .card_container {
   display: grid;
-    border: 1px solid blue;
-    padding: 20px 10px;
+  border: 1px solid blue;
+  padding: 20px 10px;
   grid-template-columns: repeat(4, 350px);
   gap: 20px;
   justify-content: center;
@@ -26,11 +26,11 @@ main {
   flex-direction: column;
   align-content: center;
 }
-.card:nth-of-type(even){
-    border: 2px dotted green;
+.card:nth-of-type(even) {
+  border: 2px dotted green;
 }
-.card:nth-of-type(odd){
-    border: 2px solid black;
+.card:nth-of-type(odd) {
+  border: 2px solid black;
 }
 .henry-holder {
   width: 20%;
@@ -62,20 +62,20 @@ main {
   margin-top: 30px;
 }
 /* rosheedat's css style */
-.rosheedat_card{
-    border: 1px solid red;
-    border-radius: 10px;
-    max-width: 300px;
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+.rosheedat_card {
+  border: 1px solid red;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
-.rosheedat_header{
-    color: brown;
-    text-align: center;
-    font-size: 2em;
+.rosheedat_header {
+  color: brown;
+  text-align: center;
+  font-size: 2em;
 }
 
 /* TEMIDAYO'S CSS STYLES */
@@ -139,32 +139,33 @@ main {
 }
 
 .liz {
-    color:brown;
-    text-align: center;
-    margin-top: 30px;
+  color: brown;
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* agnes css styles */
 .agnes_figcaption {
-    color: blue;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 10px;
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
 }
-.agnes{
-    margin-left: auto;
-    margin-right: auto;
+.agnes {
+  margin-left: auto;
+  margin-right: auto;
 }
-.agnes_th, td{
-    padding: 10px;
+.agnes_th,
+td {
+  padding: 10px;
 }
 
 /* bukola's css styling */
-.bukola_style{
-    border: 2px solid black;
-    border-radius: 5px;
-    color: crimson;
-    width: fit-content;
+.bukola_style {
+  border: 2px solid black;
+  border-radius: 5px;
+  color: crimson;
+  width: fit-content;
 }
 /* Blessing Dawodu's style */
 #description {
@@ -195,5 +196,70 @@ main {
 .text {
   font-size: 20px;
 }
- 
 
+/* Opuba Rachel's Styles */
+.opuba-card {
+  margin: 2rem auto;
+  background-color: rgb(255, 234, 182);
+  padding: 0.8rem;
+  padding-bottom: 8rem;
+  width: 250px;
+  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+.opuba-h4,
+.opuba-huge {
+  font-size: 1.185rem;
+  line-height: 1.5rem;
+}
+
+.opuba-h4 {
+  margin-bottom: 0;
+}
+.opuba-price {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.opuba-amount {
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+.opuba-btn {
+  text-align: center;
+}
+
+.opuba-button {
+  padding: 1.1rem 5.5rem;
+  border-radius: 40px;
+  background-color: white;
+  margin: 0.5rem 0;
+  border: 1px solid grey;
+}
+
+.opuba-button:hover {
+  background-color: rgb(234, 233, 233);
+  cursor: pointer;
+}
+
+.opuba-li {
+  list-style: none;
+  margin-bottom: 0.3rem;
+}
+
+.opuba-li::before {
+  content: "\2713\0020";
+  font-weight: 900;
+  margin-left: -2.2rem;
+  padding-right: 0.5rem;
+}
+
+.opuba-span {
+  border-bottom: 3px dotted black;
+}
