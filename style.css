@@ -28,11 +28,11 @@
   flex-direction: column;
   align-content: center;
 }
-.card:nth-of-type(even){
-    border: 2px dotted green;
+.card:nth-of-type(even) {
+  border: 2px dotted green;
 }
-.card:nth-of-type(odd){
-    border: 2px solid black;
+.card:nth-of-type(odd) {
+  border: 2px solid black;
 }
 .henry-holder {
   width: 20%;
@@ -64,20 +64,20 @@
   margin-top: 30px;
 }
 /* rosheedat's css style */
-.rosheedat_card{
-    border: 1px solid red;
-    border-radius: 10px;
-    max-width: 300px;
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+.rosheedat_card {
+  border: 1px solid red;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
-.rosheedat_header{
-    color: brown;
-    text-align: center;
-    font-size: 2em;
+.rosheedat_header {
+  color: brown;
+  text-align: center;
+  font-size: 2em;
 }
 
 /* TEMIDAYO'S CSS STYLES */
@@ -141,32 +141,33 @@
 }
 
 .liz {
-    color:brown;
-    text-align: center;
-    margin-top: 30px;
+  color: brown;
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* agnes css styles */
 .agnes_figcaption {
-    color: blue;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 10px;
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
 }
-.agnes{
-    margin-left: auto;
-    margin-right: auto;
+.agnes {
+  margin-left: auto;
+  margin-right: auto;
 }
-.agnes_th, td{
-    padding: 10px;
+.agnes_th,
+td {
+  padding: 10px;
 }
 
 /* bukola's css styling */
-.bukola_style{
-    border: 2px solid black;
-    border-radius: 5px;
-    color: crimson;
-    width: fit-content;
+.bukola_style {
+  border: 2px solid black;
+  border-radius: 5px;
+  color: crimson;
+  width: fit-content;
 }
 /* Blessing Dawodu's style */
 #description {
@@ -198,120 +199,89 @@
   font-size: 20px;
 }
 
-/* Destiny Otoibhi's styles */ 
-.tiny{
-  border-radius: 8px;
-  border: 1px dashed burlywood;
-  max-width: 200px;
-  align-content: center;
-  text-align: center;
+/* Opuba Rachel's Styles */
+.opuba-card {
+  margin: 2rem auto;
+  background-color: rgb(255, 234, 182);
+  padding: 0.8rem;
+  padding-bottom: 8rem;
+  width: 250px;
+  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+.opuba-h4,
+.opuba-huge {
+  font-size: 1.185rem;
+  line-height: 1.5rem;
+}
+
+.opuba-h4 {
+  margin-bottom: 0;
+}
+.opuba-price {
   display: flex;
-  flex-direction: column;
-  color: darkgreen;
-}
-.dee{
-  color: coral;
-  text-align: center;
-  padding: 10px;
-}
-.likes{
-  color: orangered;
-  text-align: center;
-  padding: 0px;
-}
-/* why style span? this is too general */
-span{color: darkgoldenrod;}
-
-.rita_dolapo{
-  text-align: center;
-  color: rgb(134, 19, 134);
-  text-decoration: underline;
-  font-size: 50px;
+  align-items: center;
+  font-size: 0.95rem;
 }
 
-/* oluchi"s css styles */
-*{
-    padding: 0;
-    margin: 0;
-}
-#olu{
-    box-sizing: border-box;
-    background-color: rgb(250, 229, 204);
-}
-.olu-header{
-    background-color: rgb(66, 153, 225);
-    display: grid;
-    grid-template-columns: 15% 85%;
-    gap: 100px;
-    align-items: center;
-    padding: 20px 30px;
-}
-.olu-title{
-    color: white;
-    font-size: 1.5em;
-    margin-top: 30px;
-    display: flex;
+.opuba-amount {
+  font-size: 2rem;
+  padding-right: 1rem;
 }
 
-.olu-nav{
-    display: grid;
-    grid-template-columns: 50%;
-    gap: 10px;
-    justify-content: center;
-   }
-
-.olu-nav ul{
- list-style: none;   
- display: flex;
- flex-direction: row;
- justify-content: space-between;
-}
-.olu-ul a{
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: 600;
-}
-.olu-ul #call{
-    background-color: white;
-    color: red;
-    border: none;
-    border-radius: 15px;
-    font-size: 1em;
-    font-weight: 600;
-    padding: 10px;
-}
-
-/* Esther's css style */
-.esther_card {
-  box-sizing: border-box;
-  border: 1px solid rgb(175, 238, 234);
-  border-radius: 10px;
-  background-color: rgb(9, 214, 201);
-  width: 500px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: rgb(65, 64, 64);
-  margin: 0 auto;
-  padding: 30px 50px;
+.opuba-btn {
   text-align: center;
 }
-.esther_img {
-  width: 200px;
-  padding-top: 15px;
-  border-radius: 100%;
+
+.opuba-button {
+  padding: 1.1rem 5.5rem;
+  border-radius: 40px;
+  background-color: white;
+  margin: 0.5rem 0;
+  border: 1px solid grey;
 }
-.about_esther {
-  padding-top: 15px;
+
+.opuba-button:hover {
+  background-color: rgb(234, 233, 233);
+  cursor: pointer;
 }
-.esther_skill {
-  padding-top: 10px;
+
+.opuba-li {
+  list-style: none;
+  margin-bottom: 0.3rem;
 }
-.esther_lang {
-  padding-top: 10px;
+
+.opuba-li::before {
+  content: "\2713\0020";
+  font-weight: 900;
+  margin-left: -2.2rem;
+  padding-right: 0.5rem;
 }
-.esthers_lang {
-  padding-top: 10px;
+
+.opuba-span {
+  border-bottom: 3px dotted black;
 }
 
 /* why style span? this is too general */
 ul {text-align: justify; color: crimson;}
+
+.content {
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/* class name should be in camel case */
+.Crys {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
