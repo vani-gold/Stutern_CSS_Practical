@@ -263,3 +263,23 @@ td {
 .opuba-span {
   border-bottom: 3px dotted black;
 }
+
+/* why style span? this is too general */
+ul {text-align: justify; color: crimson;}
+
+.content {
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/* class name should be in camel case */
+.Crys {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
