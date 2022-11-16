@@ -1,14 +1,28 @@
-main {
-  padding-top: 40px;
+*{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  /* margin: auto; */
+box-sizing: border-box;
+}
+body{
+  max-width: 1440px;
+  margin: auto;
+}
+main{
+  margin: auto;
+
 }
 
 .project_tittle {
   text-align: center;
+  padding: 40px 20px;
+  background: #000000;
+  color: #ffffff;
 }
 
 .card_container {
   display: grid;
-    border: 1px solid blue;
     padding: 20px 10px;
   grid-template-columns: repeat(4, 350px);
   gap: 20px;
@@ -25,12 +39,16 @@ main {
   display: flex;
   flex-direction: column;
   align-content: center;
+  gap: 20px;
 }
-.card:nth-of-type(even){
-    border: 2px dotted green;
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.card:nth-of-type(odd){
-    border: 2px solid black;
+.card:nth-of-type(even) {
+  border: 2px dotted green;
+}
+.card:nth-of-type(odd) {
+  border: 2px solid black;
 }
 .henry-holder {
   width: 20%;
@@ -43,11 +61,81 @@ main {
 
 /* nonso"s css styles */
 .nonso_header {
-  color: blue;
+  background-color: blue;
   text-align: center;
-  margin-top: 30px;
+ padding: 40px;
+ color: #ffffff;
+ border-bottom: 5px solid skyblue;
 }
 
+.resume_content{
+  width: 100%;
+  border-top: 5px solid blue;
+  background-color: skyblue;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: flex-start;
+}
+.resume_content h2{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.resume_left{
+  padding: 60px 40px;
+
+}
+.display_column{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.resume_right{
+  background: #ffffff;
+  margin-top: 20px;
+  padding: 30px 40px;
+}
+
+/* style the labels on the left side */
+.nonso_contact{
+  font-size: 20px;
+}
+.padding_left_30, .nonso_contact{
+  padding-left: 30px;
+}
+.nonso_contact .nonso_label{
+  font-weight: 700;
+}
+
+/* style work history section */
+.job_tittle, .company{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.job_tittle span:first-child, .company span:first-child{
+font-weight: 700;
+font-size: 28px;
+
+}
+.company span:first-child{
+  font-size: 20px;
+}
+.text_right{
+  text-align: right;
+}
+
+.job_container{
+  padding-left: 5px;
+}
+.job_info{
+  margin-bottom: 30px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 /* dami"s css styles */
 .dami.header {
   color: blue;
@@ -62,20 +150,20 @@ main {
   margin-top: 30px;
 }
 /* rosheedat's css style */
-.rosheedat_card{
-    border: 1px solid red;
-    border-radius: 10px;
-    max-width: 300px;
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+.rosheedat_card {
+  border: 1px solid red;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
-.rosheedat_header{
-    color: brown;
-    text-align: center;
-    font-size: 2em;
+.rosheedat_header {
+  color: brown;
+  text-align: center;
+  font-size: 2em;
 }
 
 /* TEMIDAYO'S CSS STYLES */
@@ -139,32 +227,33 @@ main {
 }
 
 .liz {
-    color:brown;
-    text-align: center;
-    margin-top: 30px;
+  color: brown;
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* agnes css styles */
 .agnes_figcaption {
-    color: blue;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 10px;
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
 }
-.agnes{
-    margin-left: auto;
-    margin-right: auto;
+.agnes {
+  margin-left: auto;
+  margin-right: auto;
 }
-.agnes_th, td{
-    padding: 10px;
+.agnes_th,
+td {
+  padding: 10px;
 }
 
 /* bukola's css styling */
-.bukola_style{
-    border: 2px solid black;
-    border-radius: 5px;
-    color: crimson;
-    width: fit-content;
+.bukola_style {
+  border: 2px solid black;
+  border-radius: 5px;
+  color: crimson;
+  width: fit-content;
 }
 /* Blessing Dawodu's style */
 #description {
@@ -195,65 +284,90 @@ main {
 .text {
   font-size: 20px;
 }
-.rita_dolapo{
+
+/* Opuba Rachel's Styles */
+.opuba-card {
+  margin: 2rem auto;
+  background-color: rgb(255, 234, 182);
+  padding: 0.8rem;
+  padding-bottom: 8rem;
+  width: 250px;
+  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+.opuba-h4,
+.opuba-huge {
+  font-size: 1.185rem;
+  line-height: 1.5rem;
+}
+
+.opuba-h4 {
+  margin-bottom: 0;
+}
+.opuba-price {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.opuba-amount {
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+.opuba-btn {
   text-align: center;
-  color: rgb(134, 19, 134);
-  text-decoration: underline;
-  font-size: 50px;
 }
 
-/* oluchi"s css styles */
-*{
-    padding: 0;
-    margin: 0;
+.opuba-button {
+  padding: 1.1rem 5.5rem;
+  border-radius: 40px;
+  background-color: white;
+  margin: 0.5rem 0;
+  border: 1px solid grey;
 }
-#olu{
-    box-sizing: border-box;
-    background-color: rgb(250, 229, 204);
+
+.opuba-button:hover {
+  background-color: rgb(234, 233, 233);
+  cursor: pointer;
 }
-.olu-header{
-    background-color: rgb(66, 153, 225);
-    display: grid;
-    grid-template-columns: 15% 85%;
-    gap: 100px;
-    align-items: center;
-    padding: 20px 30px;
+
+.opuba-li {
+  list-style: none;
+  margin-bottom: 0.3rem;
 }
-.olu-title{
-    color: white;
-    font-size: 1.5em;
-    margin-top: 30px;
+
+.opuba-li::before {
+  content: "\2713\0020";
+  font-weight: 900;
+  margin-left: -2.2rem;
+  padding-right: 0.5rem;
+}
+
+.opuba-span {
+  border-bottom: 3px dotted black;
+}
+
+/* why style span? this is too general */
+/* ul {text-align: justify; color: crimson;} */
+
+.content {
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 300px;
+    padding: 10px;
     display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
-.olu-nav{
-    display: grid;
-    grid-template-columns: 50%;
-    gap: 10px;
-    justify-content: center;
-   }
-
-.olu-nav ul{
- list-style: none;   
- display: flex;
- flex-direction: row;
- justify-content: space-between;
+/* class name should be in camel case */
+.Crys {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
 }
-.olu-ul a{
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: 600;
-}
-.olu-ul #call{
-    background-color: white;
-    color: red;
-    border: none;
-    border-radius: 15px;
-    font-size: 1em;
-    font-weight: 600;
-    padding: 10px;
-}
-
-
 
