@@ -1,40 +1,373 @@
+*{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  /* margin: auto; */
+box-sizing: border-box;
+}
+body{
+  max-width: 1440px;
+  margin: auto;
+}
 main{
-    padding-top: 40px;
+  margin: auto;
+
 }
-.project_tittle{
-    text-align: center;
+
+.project_tittle {
+  text-align: center;
+  padding: 40px 20px;
+  background: #000000;
+  color: #ffffff;
 }
-.card_container{
-    display: grid;
-    grid-template-columns: repeat(4, 400px);
-    gap: 20px;
-    justify-content: center;
-    margin-top: 30px;
+
+.card_container {
+  display: grid;
+    padding: 20px 10px;
+  grid-template-columns: repeat(4, 350px);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
 }
-.card{
-    border: 1px solid black;
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+}
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:nth-of-type(even) {
+  border: 2px dotted green;
+}
+.card:nth-of-type(odd) {
+  border: 2px solid black;
+}
+.henry-holder {
+  width: 20%;
+  border-style: solid;
+  border-color: gray;
+  border-width: 0.2;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+/* nonso"s css styles */
+.nonso_header {
+  background-color: blue;
+  text-align: center;
+ padding: 40px;
+ color: #ffffff;
+ border-bottom: 5px solid skyblue;
+}
+
+.resume_content{
+  width: 100%;
+  border-top: 5px solid blue;
+  background-color: skyblue;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: flex-start;
+}
+.resume_content h2{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.resume_left{
+  padding: 60px 40px;
+
+}
+.display_column{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.resume_right{
+  background: #ffffff;
+  margin-top: 20px;
+  padding: 30px 40px;
+}
+
+/* style the labels on the left side */
+.nonso_contact{
+  font-size: 20px;
+}
+.padding_left_30, .nonso_contact{
+  padding-left: 30px;
+}
+.nonso_contact .nonso_label{
+  font-weight: 700;
+}
+
+/* style work history section */
+.job_tittle, .company{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.job_tittle span:first-child, .company span:first-child{
+font-weight: 700;
+font-size: 28px;
+
+}
+.company span:first-child{
+  font-size: 20px;
+}
+.text_right{
+  text-align: right;
+}
+
+.job_container{
+  padding-left: 5px;
+}
+.job_info{
+  margin-bottom: 30px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* dami"s css styles */
+.dami.header {
+  color: blue;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.venee_header {
+  color: rgb(6, 6, 7);
+  background-color: crimson;
+  text-align: center;
+  margin-top: 30px;
+}
+/* rosheedat's css style */
+.rosheedat_card {
+  border: 1px solid red;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.rosheedat_header {
+  color: brown;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* TEMIDAYO'S CSS STYLES */
+
+.temi-body {
+  background-color: whitesmoke;
+  color: rgb(12, 12, 109);
+}
+
+.temidayo-header {
+  background-color: cornflowerblue;
+  height: fit-content;
+  padding: 10px;
+}
+
+.temi-main {
+  margin-top: -30px;
+}
+
+.temidayo-h1 {
+  font-size: 2.2em;
+}
+
+#hello_button {
+  border: 4px solid rgb(12, 12, 109);
+  font-size: 1.1em;
+  background-color: cornflowerblue;
+  margin-top: 25px;
+  padding: 10px;
+  color: rgb(12, 12, 109);
+}
+
+#hello_button:hover {
+  transform: scale(1.2);
+  margin-left: 10px;
+}
+.temi-form {
+  border: 2px solid rgb(12, 12, 109);
+  padding: 5px 10px;
+}
+
+.input-div {
+  margin: 20px 0;
+}
+
+.radio1 {
+  margin: 10px;
+}
+
+#input-name,
+#food {
+  width: 300px;
+  height: 30px;
+}
+
+.submit-button input {
+  padding: 10px;
+  color: rgb(12, 12, 109);
+  border: 4px solid rgb(12, 12, 109);
+  font-size: 1.2em;
+}
+
+.liz {
+  color: brown;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* agnes css styles */
+.agnes_figcaption {
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.agnes {
+  margin-left: auto;
+  margin-right: auto;
+}
+.agnes_th,
+td {
+  padding: 10px;
+}
+
+/* bukola's css styling */
+.bukola_style {
+  border: 2px solid black;
+  border-radius: 5px;
+  color: crimson;
+  width: fit-content;
+}
+/* Blessing Dawodu's style */
+#description {
+  padding: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+#description:hover {
+  color: #dad6d6e1;
+}
+
+#blog {
+  background-color: #dad6d64d;
+  color: #000000;
+  padding: 20px;
+  margin: 10px;
+  line-height: 2;
+}
+
+.capitalize {
+  text-transform: capitalize;
+  margin: auto;
+}
+
+.text {
+  font-size: 20px;
+}
+
+/* Opuba Rachel's Styles */
+.opuba-card {
+  margin: 2rem auto;
+  background-color: rgb(255, 234, 182);
+  padding: 0.8rem;
+  padding-bottom: 8rem;
+  width: 250px;
+  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+.opuba-h4,
+.opuba-huge {
+  font-size: 1.185rem;
+  line-height: 1.5rem;
+}
+
+.opuba-h4 {
+  margin-bottom: 0;
+}
+.opuba-price {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.opuba-amount {
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+.opuba-btn {
+  text-align: center;
+}
+
+.opuba-button {
+  padding: 1.1rem 5.5rem;
+  border-radius: 40px;
+  background-color: white;
+  margin: 0.5rem 0;
+  border: 1px solid grey;
+}
+
+.opuba-button:hover {
+  background-color: rgb(234, 233, 233);
+  cursor: pointer;
+}
+
+.opuba-li {
+  list-style: none;
+  margin-bottom: 0.3rem;
+}
+
+.opuba-li::before {
+  content: "\2713\0020";
+  font-weight: 900;
+  margin-left: -2.2rem;
+  padding-right: 0.5rem;
+}
+
+.opuba-span {
+  border-bottom: 3px dotted black;
+}
+
+/* why style span? this is too general */
+/* ul {text-align: justify; color: crimson;} */
+
+.content {
+    border: 2px solid black;
     border-radius: 10px;
     max-width: 300px;
-    width: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-content: center;
 }
 
-.henry-holder{
-    width: 20%;
-    border-style: solid ;
-    border-color: gray;
-    border-width: 0.2;
-    border-radius: 20px;
-    padding: 30px;
-}
-
-/* nonso"s css styles */
-.nonso_header{
-color: blue;
-text-align: center;
-margin-top: 30px;
+/* class name should be in camel case */
+.Crys {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
 }
 
